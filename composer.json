@@ -1,0 +1,21 @@
+{
+    "name": "ronnyjohnti/amigo-secreto",
+    "description": "Aplicação para sortear os nomes do amigo secreto à distância",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ronnyjohnti\\AmigoSecreto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ronny John",
+            "email": "me@ronnyjohnti.dev"
+        }
+    ],
+    "require": {
+        "mailjet/mailjet-apiv3-php": "^1.6",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
